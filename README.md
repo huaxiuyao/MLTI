@@ -3,8 +3,6 @@
 ## About
 Source code of the paper [Meta-Learning with Fewer Tasks through Task Interpolation](https://arxiv.org/abs/2106.02695)
 
-code coming soon
-
 If you find this repository useful in your research, please cite the following paper:
 
 ```
@@ -15,3 +13,18 @@ If you find this repository useful in your research, please cite the following p
   year={2022} 
 }
 ```
+
+## Data
+We have put the related datasets in [Google Drive]()
+
+## Usage
+### Dependence
+* python 3.*
+* Pytorch 1.10+
+
+## Details
+1. Bio folder is for NCI and Metabolism
+2. Image_NLS is for miniImagenet-S, ISIC and DermNet-S
+3. Please check run.sh in each folder for running scripts
+
+Code of MLTI with ProtoNet is released. Code of MLTI with MAML coming soon.

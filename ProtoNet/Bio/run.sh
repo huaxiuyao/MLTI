@@ -1,0 +1,5 @@
+python main.py --datasource=metabolism --metatrain_iterations=20000 --meta_lr=0.001 --meta_batch_size=4 --update_batch_size=5 --update_batch_size_eval=10 --num_classes=2 --datadir=xxx --logdir=xxx --mix=1
+python main.py --datasource=metabolism --metatrain_iterations=20000 --meta_lr=0.001 --meta_batch_size=4 --update_batch_size=5 --update_batch_size_eval=10 --num_classes=2 --datadir=xxx --logdir=xxx --mix=1 --train=0 --test_epoch=xxx
+
+python main.py --datasource=NCI --metatrain_iterations=50000 --meta_lr=0.001 --meta_batch_size=4 --update_batch_size=5 --update_batch_size_eval=10 --num_classes=2 --datadir=xxx --logdir=xxx --mix=1
+python main.py --datasource=NCI --metatrain_iterations=50000 --meta_lr=0.001 --meta_batch_size=4 --update_batch_size=5 --update_batch_size_eval=10 --num_classes=2 --datadir=xxx --logdir=xxx --mix=1 --train=0 --test_epoch=xxx

@@ -1,0 +1,2 @@
+python main.py --datasource=rainbowmnist --metatrain_iterations=30000 --meta_lr=0.001 --meta_batch_size=4 --update_batch_size=1 --update_batch_size_eval=15 --num_classes=10 --datadir=xxx --logdir=xxx --num_filters=32 --mix=1 --ratio=0.4
+python main.py --datasource=rainbowmnist --metatrain_iterations=30000 --meta_lr=0.001 --meta_batch_size=4 --update_batch_size=1 --update_batch_size_eval=15 --num_classes=10 --datadir=xxx --logdir=xxx --num_filters=32 --mix=1 --ratio=0.4 --train=0 --test_epoch=xxx
